@@ -1,0 +1,238 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    color: #5C5C5C;
+    font-weight: 400;
+}
+* {
+    outline: none !important;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+a, a:hover {
+    text-decoration: none;
+}
+h1 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.link {
+    color: #2F6CE5;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background: round;    
+}
+.icon-1 {
+    background-image: url('../img/hospital.png');
+}
+.icon-star {
+    background-image: url('../img/star.png');
+    width: 13px;
+    height: 13px;
+}
+.icon-user {
+    background-image: url('../img/office-man.png');
+    height: 200px;
+    width: 230px;
+}
+.icon-chevron {
+    background-image: url('../img/right-chevron.png');
+    width: 10px;
+    height: 10px;
+    margin: 0 0 0 5px;
+}
+.icon-phone {
+    background-image: url('../img/phone-call.png');
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 0;
+}
+.pr-0 {
+    padding-right: 0;
+}
+.pl-0 {
+    padding-left: 0;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mt-10 {
+    margin: 10px 0 0;
+}
+.ptb {
+    padding: 10px 0 30px;
+}
+.mtb {
+    margin: 10px 0 5px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.bold-text {
+    font-weight: 500;
+}
+.btns {
+    font-size: 13px;
+    padding: 10px 22px;
+    border-radius: 4px;
+    text-align: center;
+    border: 0;
+    color: #fff;
+}
+.green-btn {
+    background-color: green;
+    margin: 10px 0 0;
+}
+.red-btn {
+    background-color: red;
+    margin: 10px 0 0;
+    border-radius: 20px;
+}
+.header {    
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    padding: 0 60px;
+}
+.header .navbar {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.header .right-title {
+    display: flex;
+    align-items: center;
+}
+.header .right-title .link {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 5px;
+}
+.main {
+    margin: 72px 0 0 0;
+}
+.banner {
+    background: url('../img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 140px 0 90px 0;
+    position: relative;
+}
+.banner-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+.banner-content {
+    font-size: 18px;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.form-control {
+    border: 0;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    height: 30px;
+    padding: 0;
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+.numbers {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin: 0px 0 10px;
+}
+.small-text {
+    font-size: 12px;
+}
+.section {
+    padding: 50px 20px;
+}
+.heading {
+    font-size: 22px;
+    font-weight: 600;
+}
+.section-inner {
+    padding: 30px 0;
+}
+.highlights-hor {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px;
+}
+.highlights-hor .icon {
+    width: 40px;
+    height: 40px;
+}
+.large-text {
+    font-size: 18px;
+    margin: 0 0 0 15px;
+    font-weight: 500;
+    color: #000;
+}
+.light-blue-bg {
+    background-color: #EEF2F5;
+}
+.light-green-bg {
+    background-color: #F0FFE0;
+}
+.green-bg {
+    background-color: green;
+}
+.green-bg .heading {
+    color: #fff;
+}
+.google-logo {
+    width: 180px;
+}
+.review-section .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review-section .stars {
+    margin: 0 0 0 10px;
+}
+.green-text {
+    color: green;
+}
+.review {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin: 0 0 25px;
+}
+.review .stars {
+    margin: 0;
+}
+.hospitals {
+    margin: 50px 0 0;
+}
+.hospitals .img-wrap img {
+    width: 180px;
+    height: 150px;
+}
+.treatment, .specialist, .network {
+    margin: 30px 0 0;
+}
